@@ -1,1 +1,1 @@
-# GeorgeDavis26.github.io
+# George Davis HMC Engineering '26
