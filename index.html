@@ -1,39 +1,104 @@
-<!-- Portfolio Template 2 -->
+<!-- Portfolio Template 1 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Template 2</title>
-    <link rel="stylesheet" href="styles.scss">
+    <title>George Davis Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .about img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .about-content {
+            flex: 1;
+        }
+
+        .links a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #007acc;
+        }
+
+        .projects .project {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        .personal {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
+        <h1>George Davis</h1>
     </header>
 
-    <section class="hero">
+    <section class="section about">
         <img src="headshot.jpg" alt="Your Headshot">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Exploring engineering projects, achievements, and passions.</p>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Hi! I'm [Your Name], an engineering student passionate about innovative design and technology.</p>
+            <div class="links">
+                <a href="resume.pdf" target="_blank">View Resume</a>
+                <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
+            </div>
+        </div>
     </section>
 
-    <section class="section featured">
-        <div class="card">
+    <section class="section projects">
+        <h2>Projects</h2>
+        <div class="project">
             <h3>Project Title 1</h3>
             <p>Short description of the project.</p>
             <a href="project1.pdf" target="_blank">View PDF</a>
+            <a href="project1.jpg" target="_blank">View JPG</a>
         </div>
-        <div class="card">
+        <div class="project">
             <h3>Project Title 2</h3>
             <p>Short description of the project.</p>
             <a href="project2.pdf" target="_blank">View PDF</a>
+            <a href="project2.jpg" target="_blank">View JPG</a>
         </div>
-        <!-- Add more cards as needed -->
+        <!-- Add more projects as needed -->
     </section>
 
-    <footer class="footer">
-        <p>Contact: your.email@example.com | LinkedIn: <a href="https://linkedin.com/in/yourlinkedin" target="_blank" style="color: white;">Profile</a></p>
-    </footer>
+    <section class="section personal">
+        <h2>Personal</h2>
+        <p>Explore my hobbies, travels, and personal interests.</p>
+        <img src="hobby.jpg" alt="Hobby Image" style="max-width: 100%; height: auto;">
+    </section>
 </body>
 </html>
+
