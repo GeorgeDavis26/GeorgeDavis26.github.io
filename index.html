@@ -1,16 +1,15 @@
-<!-- Portfolio Template 1 -->
+<!-- Portfolio Template 2 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Template 1</title>
+    <title>Portfolio Template 2</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
             color: #333;
         }
 
@@ -25,37 +24,38 @@
             margin: auto;
         }
 
-        .about {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-
-        .about img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-        }
-
-        .about-content {
-            flex: 1;
-        }
-
-        .links a {
-            margin-right: 10px;
-            text-decoration: none;
-            color: #007acc;
-        }
-
-        .projects .project {
-            margin-bottom: 20px;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 10px;
-        }
-
-        .personal {
+        .hero {
             text-align: center;
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+
+        .hero img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .featured {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
         }
     </style>
 </head>
@@ -64,41 +64,28 @@
         <h1>My Portfolio</h1>
     </header>
 
-    <section class="section about">
+    <section class="hero">
         <img src="headshot.jpg" alt="Your Headshot">
-        <div class="about-content">
-            <h2>About Me</h2>
-            <p>Hi! I'm [Your Name], an engineering student passionate about innovative design and technology.</p>
-            <div class="links">
-                <a href="resume.pdf" target="_blank">View Resume</a>
-                <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
-            </div>
-        </div>
+        <h2>Welcome to My Portfolio</h2>
+        <p>Exploring engineering projects, achievements, and passions.</p>
     </section>
 
-    <section class="section projects">
-        <h2>Projects</h2>
-        <div class="project">
+    <section class="section featured">
+        <div class="card">
             <h3>Project Title 1</h3>
             <p>Short description of the project.</p>
             <a href="project1.pdf" target="_blank">View PDF</a>
-            <a href="project1.jpg" target="_blank">View JPG</a>
         </div>
-        <div class="project">
+        <div class="card">
             <h3>Project Title 2</h3>
             <p>Short description of the project.</p>
             <a href="project2.pdf" target="_blank">View PDF</a>
-            <a href="project2.jpg" target="_blank">View JPG</a>
         </div>
-        <!-- Add more projects as needed -->
+        <!-- Add more cards as needed -->
     </section>
 
-    <section class="section personal">
-        <h2>Personal</h2>
-        <p>Explore my hobbies, travels, and personal interests.</p>
-        <img src="hobby.jpg" alt="Hobby Image" style="max-width: 100%; height: auto;">
-    </section>
+    <footer class="footer">
+        <p>Contact: your.email@example.com | LinkedIn: <a href="https://linkedin.com/in/yourlinkedin" target="_blank" style="color: white;">Profile</a></p>
+    </footer>
 </body>
 </html>
-
