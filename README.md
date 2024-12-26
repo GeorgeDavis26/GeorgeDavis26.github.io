@@ -1,1 +1,1 @@
-# George Davis HMC Engineering '26
+# George Davis HMC Engineering
