@@ -1,92 +1,49 @@
-<!-- Portfolio Template 2 -->
+<!-- Template 1 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Template 2</title>
+    <title>George Davis</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-
-        header {
-            text-align: center;
-            padding: 20px;
-        }
-
-        .section {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-
-         .hero {
-            text-align: center;
-            padding: 40px;
-            background-color: #f4f4f4;
-        }
-
-        .hero img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
-
-        .featured {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-
-        .card {
-            border: 1px solid #ccc;
-            padding: 20px;
-            width: 250px;
-            text-align: center;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
+        <h1>About Me</h1>
+        <div class="about-me">
+            <img src="gdavisHeadshot.jpg" alt="Headshot" class="headshot">
+            <p>
+                Hi, my name is George Davis. I am an Engineering Student from Seattle, Washington studying at Harvey Mudd College. 
+                I am primarily interested in Embedded Systems and Electrical Engineering but have skills spanning many engineering disciplines. 
+                My interest in engineering started with robotics but now with what I have learned at HMC have the skills to apply myself to many different subjects.
+                </p>
+        </div>
+        <div class="links">
+            <a href="GDavis Resume 2024.pdf">View Resume</a>
+            <a href="https://github.com/GeorgeDavis26">GitHub</a>
+            <a href="https://www.linkedin.com/in/gswdavis/">LinkedIn</a>
+        </div>
     </header>
-
-    <section class="hero">
-        <img src="headshot.jpg" alt="Your Headshot">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Exploring engineering projects, achievements, and passions.</p>
-    </section>
-
-    <section class="section featured">
-        <div class="card">
-            <h3>Project Title 1</h3>
-            <p>Short description of the project.</p>
-            <a href="project1.pdf" target="_blank">View PDF</a>
-        </div>
-        <div class="card">
-            <h3>Project Title 2</h3>
-            <p>Short description of the project.</p>
-            <a href="project2.pdf" target="_blank">View PDF</a>
-        </div>
-        <!-- Add more cards as needed -->
-    </section>
-
-    <footer class="footer">
-        <p>Contact: your.email@example.com | LinkedIn: <a href="https://linkedin.com/in/yourlinkedin" target="_blank" style="color: white;">Profile</a></p>
-    </footer>
+    <main>
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Autonomous Underwater Robot</h3>
+                    <p> Designed and built an autonomous underwater robot with a microcontroller and custom protoboard with temperature,
+                        depth, and turbidity sensing circuits that used op-amps, an envelope detector, and a trans-impedance amplifier.
+                        Effectively led the team through unexpected roadblocks with troubleshooting during a short data collection
+                        period with skills in basic electrical equipment like multimeters, oscilloscopes, and breadboards/ protoboards.</p>
+                    <a href="E80 Team 14 Final Report">View Technical Report PDF</a>
+                    <a href="E80 Final Presentation Team 14.pdf">View Presentation as a PDF</a>
+                    <a href="project.jpg">View Image</a>
+                </li>
+            </ul>
+        </section>
+        <section class="personal">
+            <h2>Personal</h2>
+            <p>Details about personal interests, trips, or hobbies.</p>
+        </section>
+    </main>
 </body>
 </html>
