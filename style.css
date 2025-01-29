@@ -26,8 +26,8 @@ header {
 
 .description {
     width: 600px; 
-    margin: 0 auto; 
-    text-align: justify;
+    margin: auto; 
+    text-align: center;
 }
 
 .links a {
