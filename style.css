@@ -27,15 +27,6 @@ header {
     align-content: center;
 }
 
-.description {
-    width: 500px; 
-    margin-left: 300px; 
-    margin-right: 300px; 
-    text-align: center;
-    color: hsl(53, 94%, 44%);
-
-}
-
 .links a {
     display: inline-block;
     margin: 5px 10px;
@@ -54,19 +45,11 @@ header {
     color: #e40d0d;
 }
 
-.exoerience ul {
-    list-style-type: none;
-    padding: 0;
-    margin-left: 300px; 
-    margin-right: 300px;
-    color: #0de42d;
-}
-
 .exoerience li {
     margin-bottom: 15px;
-    margin-left: 300px; 
+    margin-left: 200px; 
     margin-right: 300px;
-    color: hsl(332, 94%, 44%);
+    color: hsl(62, 74%, 50%);
 }
 
 .personal {
