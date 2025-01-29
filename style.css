@@ -9,8 +9,8 @@ body {
 
 header {
     text-align: center;
-    padding: 20px;
-    background-color: #9ab4f5;
+    padding: 0px;
+    background-color: #162753;
     color: #fff;
 }
 
@@ -40,8 +40,6 @@ header {
 
 .experience {
     padding: 20px;
-    margin-left: 200px; 
-    margin-right: 200px;
 }
 
 .personal {
