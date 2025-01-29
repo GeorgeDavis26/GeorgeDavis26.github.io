@@ -21,9 +21,10 @@ header {
 }
 
 .headshot {
-    width: 30px;
-    height: 20px;
-    margin-right: 20px;
+    width: 150px; /* Set a reasonable width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes it a circular image */
+    object-fit: cover; /* Ensures proper cropping */
 }
 
 .links a {
