@@ -32,6 +32,8 @@ header {
     margin-left: 300px; 
     margin-right: 300px; 
     text-align: center;
+    color: hsl(53, 94%, 44%);
+
 }
 
 .links a {
@@ -49,6 +51,7 @@ header {
     padding: 20px;
     margin-left: 300px; 
     margin-right: 300px;
+    color: #e40d0d;
 }
 
 .exoerience ul {
@@ -56,12 +59,14 @@ header {
     padding: 0;
     margin-left: 300px; 
     margin-right: 300px;
+    color: #0de42d;
 }
 
 .exoerience li {
     margin-bottom: 15px;
     margin-left: 300px; 
     margin-right: 300px;
+    color: hsl(332, 94%, 44%);
 }
 
 .personal {
