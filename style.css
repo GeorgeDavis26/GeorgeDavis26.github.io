@@ -46,15 +46,21 @@ header {
 
 .experience, .personal {
     padding: 20px;
+    margin-left: 300px; 
+    margin-right: 300px;
 }
 
 .exoerience ul {
     list-style-type: none;
     padding: 0;
+    margin-left: 300px; 
+    margin-right: 300px;
 }
 
 .exoerience li {
     margin-bottom: 15px;
+    margin-left: 300px; 
+    margin-right: 300px;
 }
 
 .personal {
