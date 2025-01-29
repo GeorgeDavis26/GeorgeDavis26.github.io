@@ -38,18 +38,10 @@ header {
     text-decoration: underline;
 }
 
-.experience, .personal {
+.experience {
     padding: 20px;
-    margin-left: 300px; 
-    margin-right: 300px;
-    color: #e40d0d;
-}
-
-.exoerience li {
-    margin-bottom: 15px;
     margin-left: 200px; 
-    margin-right: 300px;
-    color: hsl(62, 74%, 50%);
+    margin-right: 200px;
 }
 
 .personal {
