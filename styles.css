@@ -21,8 +21,14 @@ header {
 }
 
 .headshot {
-    width: 150px; 
-    height: auto; 
+    width: 250px; 
+    height: auto;
+}
+
+.description {
+    width: 600px; 
+    margin: 0 auto; 
+    text-align: justify;
 }
 
 .links a {
