@@ -1,35 +1,25 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding-left: 200px;
-    padding-right: 200px;
     background-color: #f8f9fa;
     color: #333;
 }
 
 header {
-    text-align: center;
-    padding: 0px;
+    text-align: center;    
     background-color: #162753;
     color: #fff;
 }
 
-.about-me {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-
 .headshot {
-    width: 250px; 
+    width: 10%; 
     height: auto;
     align-content: center;
 }
 
 .links a {
     display: inline-block;
-    margin: 5px 10px;
+    margin: 0.5%;
     color: #007bff;
     text-decoration: none;
 }
@@ -39,9 +29,11 @@ header {
 }
 
 .experience {
-    padding: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .personal {
     text-align: center;
+    background-color: #f8f9fa;
 }
